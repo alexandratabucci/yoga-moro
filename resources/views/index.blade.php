@@ -4,111 +4,118 @@
 
 @section('content')
 
+    <div class="banner-main">
+        <div class="logo">
+            <img src="{{ asset('assets/images/logo.png') }}" alt="">
+        </div>
+        <img src="{{ asset('assets/images/banner.png') }}" alt="Banner">
+        <div class="banner_text">
+            “Серьезная духовная практика - это нечто большее, чем безмятежные прогулки по лесу, зажженные свечи и благовония. Ты должен быть предан своему делу. Ты должен быть готов войти в свою собственную тьму и выйти за её пределы", - Мария Эрвинг
+        </div>
+    </div>
+
     <div class="container">
-        <div class="content">
-            <h1 class="block_title">Yoga Poses</h1>
-            <div class="block_logo">
-                <img src="{{ asset('assets/images/logo.png') }}" alt="Yoga Poses">
+        <div class="text-block">
+            <div class="text-left">
+                Йога – это древняя система физических и умственных упражнений, направленных на достижение гармонии между телом и разумом<br><br>Независимо от вашего возраста, физической подготовки или уровня гибкости, йога доступна каждому и может принести огромную пользу вашему здоровью и благополучию
             </div>
-            <div class="block_items">
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/mermaid.png') }}" alt="Mermaid">
-                    </div>
-                    <div class="item_title">Mermaid</div>
+            <div class="images-right">
+                <div class="big-circle">
+                    <img src="{{ asset('assets/images/womans-circle-big.png') }}" alt="">
                 </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/downward.png') }}" alt="Downward-Facing Dog">
-                    </div>
-                    <div class="item_title">Downward-Facing Dog</div>
+                <div class="small-circle">
+                    <img src="{{ asset('assets/images/womans-circle-small.png') }}" alt="">
                 </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/scorpion.png') }}" alt="One Legged Scorpion Hand-Stand">
-                    </div>
-                    <div class="item_title">One Legged Scorpion Hand-Stand</div>
+                <div class="woman-circle">
+                    <img src="{{ asset('assets/images/main-yoga_woman.png') }}" alt="">
                 </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/plow.png') }}" alt="Plow">
-                    </div>
-                    <div class="item_title">Plow</div>
+            </div>
+            <div class="text-block-bottom">
+                <div class="people_number">
+                    <div class="number">300 000 000+</div>
+                    <div class="number-text">человек практикуют йогу по всему миру</div>
                 </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/lotus.png') }}" alt="Lotus">
-                    </div>
-                    <div class="item_title">Lotus</div>
+                <div class="text-block-bottom_text_right">
+                    Наша платформа создана для начинающих йогов.<br>
+                    Мы ставим перед собой цель - просвещение и помощь всем, кто желает достичь физического и духовного роста.<br>
+                    Поэтому этот ресурс абсолютно бесплатный!
                 </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/handstand.png') }}" alt="Handstand With Splits">
-                    </div>
-                    <div class="item_title">Handstand With Splits</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-block">
+        <div class="middle-title">Здесь каждый найдет что-то для себя!</div>
+    </div>
+
+    <div class="container">
+        <div class="text-block">
+            <h1 class="block_title">Йога поможет тебе . . .</h1>
+
+            <div class="yoga_help_wrapper">
+                <div class="yoga_help_item">
+                    <img src="{{ asset('assets/images/control.png') }}" alt="">
+                    <div class="text_help">Обрести контроль над своим телом</div>
                 </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/pigeon.png') }}" alt="One Legged King Pigeon">
-                    </div>
-                    <div class="item_title">One Legged King Pigeon</div>
+                <div class="yoga_help_item">
+                    <img src="{{ asset('assets/images/yoga-mat 1.png') }}" alt="">
+                    <div class="text_help">Развить гибкость</div>
                 </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/boat.png') }}" alt="Boat Pose">
-                    </div>
-                    <div class="item_title">Boat Pose</div>
+                <div class="yoga_help_item">
+                    <img src="{{ asset('assets/images/third-help.png') }}" alt="">
+                    <div class="text_help">Научиться дышать правильно</div>
                 </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/scorpion_2.png') }}" alt="One Legged Scorpion">
-                    </div>
-                    <div class="item_title">One Legged Scorpion</div>
+                <div class="yoga_help_item">
+                    <img src="{{ asset('assets/images/flower.png') }}" alt="">
+                    <div class="text_help">Обрести внутреннее спокойствие</div>
                 </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/wheel.png') }}" alt="Wheel">
-                    </div>
-                    <div class="item_title">Wheel</div>
-                </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/lunge.png') }}" alt="Crescent Lunge">
-                    </div>
-                    <div class="item_title">Crescent Lunge</div>
-                </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/upward.png') }}" alt="Upward-Facing Dog">
-                    </div>
-                    <div class="item_title">Upward-Facing Dog</div>
-                </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/downward_2.png') }}" alt="Three Legged Downward-Facing Dog">
-                    </div>
-                    <div class="item_title">Three Legged Downward-Facing Dog</div>
-                </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/warrior.png') }}" alt="Warrior III">
-                    </div>
-                    <div class="item_title">Warrior III</div>
-                </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/sarvangasana.png') }}" alt="Sarvangasana">
-                    </div>
-                    <div class="item_title">Sarvangasana</div>
-                </div>
-                <div class="item">
-                    <div class="item_image">
-                        <img src="{{ asset('assets/images/bow.png') }}" alt="Standing Bow">
-                    </div>
-                    <div class="item_title">Standing Bow</div>
+            </div>
+        </div>
+
+        <div class="text-block">
+            <div class="rounds-block">
+                <img src="{{ asset('assets/images/small-round.png') }}">
+                <img src="{{ asset('assets/images/med-round.png') }}">
+                <img src="{{ asset('assets/images/womans-circle-small.png') }}">
+            </div>
+        </div>
+
+        <div class="text-block">
+            <div class="text-wrapper">
+                <div class="text">Практика йоги - это путешествие к самопознанию и гармонии</div>
+                <div class="text">Начните свой путь сегодня и откройте для себя мир благополучия и внутреннего равновесия с помощью йоги!</div>
+            </div>
+        </div>
+
+        <div class="text-block">
+            <div class="text-wrapper">
+                <a class='auth_button' href="{{ route('login') }}">Авторизация</a>
+                <img class="med-round" src="{{ asset('assets/images/med-round.png') }}">
+                <img class="pos_auth" src="{{ asset('assets/images/pos_auth.png') }}" alt="">
+            </div>
+        </div>
+
+        <div class="text-block" style="margin-top: 200px">
+            <div class="text-wrapper">
+                <h1 class="block_title">Рейтинг самых йоганутых:</h1>
+                <div class="users-list">
+                    <ul>
+                        @if (count($users) > 0)
+                            @foreach($users as $user)
+                                <li><i>{{ $user->name }}</i></li>
+                            @endforeach
+                        @else
+                            <li><i>Пусто ...</i></li>
+                            <li><i>Пусто ...</i></li>
+                            <li><i>Пусто ...</i></li>
+                            <li><i>Пусто ...</i></li>
+                        @endif
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 
 @endsection
+
+@include('layouts.footer')
